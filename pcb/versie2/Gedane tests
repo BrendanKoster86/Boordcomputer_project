@@ -1,0 +1,7 @@
+Voor de beide hoofdmodules (Standaard en 4 inch) heb ik het volgende getest met de volgende resultaten:
+- Beeld : 4 inch enkel het kleine beeld. Ligt aan de software hier moet ik nog iets mee doen
+- Touch : Werkt correct
+- SD    : Werkt correct
+- IO    : Werkt correct (Getest met oude schakel module)
+- 12Vin : Werkt correct
+
