@@ -1,7 +1,13 @@
 Voor de beide hoofdmodules (Standaard en 4 inch) heb ik het volgende getest met de volgende resultaten:
-- Beeld : 4 inch enkel het kleine beeld. Ligt aan de software hier moet ik nog iets mee doen
+- Beeld : Werkt correct
 - Touch : Werkt correct
 - SD    : Werkt correct
-- IO    : Werkt correct (Getest met oude schakel module)
+- IO    : Werkt correct (Getest met oude en nieuwe schakel module)
 - 12Vin : Werkt correct
 
+Voor de schakelmodule is getest:
+- IO             : Werkt correct (letop, om eenvoudiger te programeren staan deze nu kruislinks aangesloten)
+- 12V schakeling : Werkt correct, gebruikte transistoren: 2N2222 en IRF 4905
+- 12V versturen  : Werkt correct (wel even een jumper plaatsen in het PSU gedeelte dat 12 volt wordt gebruikt als hv
+- Sensoren       : Werkt correct
+- ATtiny?4 uart  : Werkt correct, zie de geschreven code. Deze past echter alleen op de ATtiny44 en ATtiny84
